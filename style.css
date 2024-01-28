@@ -4,6 +4,7 @@ body{
     background-repeat:no-repeat;
     background-attachment: fixed;
     margin:20px 20px 0px 20px;    
+    width:100%;
 }
 
 #head h1{
