@@ -1,0 +1,288 @@
+body{
+    background-image: url('darl hexagon.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    margin:20px 20px 0px 20px;    
+}
+
+#head h1{
+    color:rgb(255, 208, 91);
+    letter-spacing: 10px;
+    padding:15px 15px 15px 40px;
+    font-size: 50px;
+}
+
+
+
+h1{
+    color:rgb(255, 208, 91);
+    letter-spacing: 5px;
+    padding:15px 15px 15px 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    color:rgb(255, 208, 91);
+    letter-spacing: 2px;
+    padding:10px 10px 10px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#head{
+    display:flex;
+}
+
+#head li,a{
+    list-style-type: none;
+    text-decoration:none;
+    color:rgb(242, 106, 106);
+    padding:15px 30px;
+    display:inline-block;
+    margin-left:30px;
+    margin-top:10px;
+    row-gap: 10px;
+    
+}
+
+#head a:link,a:visited{
+    border:2px solid rgb(255, 208, 20);
+    border-radius:19px;
+    font-weight: bolder;
+
+}
+
+#head a:hover,a:active{
+    background-color: rgba(210, 254, 210, 0.508);
+    font-size:17px;
+    color:aquamarine;
+}
+
+.about{
+    width:590px;
+    margin:50px 150px 70px 100px;
+    color:rgb(243, 220, 89);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 4px solid rgb(238, 225, 82);
+    padding:20px;
+    border-radius: 20px;
+    line-height: 20px;
+    outline:8px solid rgb(242, 106, 106);
+
+}
+
+a:link.normlink ,a:visited.normlink {
+    margin:0;
+    padding:0;    
+}
+
+a:hover.normlink,a:active.normlink{
+    color:aquamarine;
+}
+
+#pfp{
+    width: 350px;
+    height:350px ;
+    border:4px solid rgb(238, 225, 82);
+    outline:8px solid rgb(242, 106, 106);
+    margin: 32px 50px 20px 0px;
+    
+}
+
+#one{
+    margin-top: 20px;
+    display:inline-flex;
+}
+
+#school caption,th,td{
+    border:2px solid rgb(242, 106, 106);
+    color:rgb(238, 225, 82);
+    text-align: center;
+
+}
+
+#school{
+    border:2px solid rgb(242, 106, 106);
+    width:55%;
+    height:170px;
+    margin:30px 50px 20px 330px;
+}
+
+#college caption,th,td{
+    border:2px solid rgb(242, 106, 106);
+    color:rgb(238, 225, 82);
+    text-align: center;
+
+}
+#college{
+    border:2px solid rgb(242, 106, 106);
+    width:55%;
+    height:270px;
+    margin:30px 50px 20px 330px;
+}
+
+#web{
+    display: inline-flex;
+    border:4px solid rgb(225, 208, 20);
+    border-radius:15px;
+    outline:4px solid rgb(242, 106, 106);
+    padding:10px;
+    margin:20px 40px 10px 150px;
+}
+#webdev{
+    width:550px;
+    font-weight:900;
+    padding-left:50px;
+
+}
+#interests dt{
+    color:rgb(242, 106, 106);
+    font-size: 2em;
+}
+
+#interests dd{
+    color: rgb(238, 225, 82);
+    font-size: 1.3em;
+}
+
+#other{
+    display:inline-flex;
+    font-weight:900;
+}
+
+#finance{
+    border:4px solid rgb(225, 208, 20);
+    border-radius:15px;
+    outline:4px solid rgb(242, 106, 106);
+    padding:25px;
+    width:500px;
+    margin:30px 0px 0px 150px;
+
+}
+
+#politics{
+    border:4px solid rgb(225, 208, 20);
+    border-radius:15px;
+    outline:4px solid rgb(242, 106, 106);
+    width:500px;
+    margin: 30px 50px 0px 90px;
+    padding:25px ;
+
+}
+
+#contact a:link,#contact a:visited{
+    font-size: 35px;
+    border:none;
+}
+
+#contact a:hover,#contact a:active{
+    font-size:55px;
+    color:aquamarine;
+}
+
+#contact{
+    display: flex;
+    margin:45px;
+
+}
+
+#contact li::marker{
+    color:aqua;
+    
+}
+
+.socials{
+    padding:80px 20px 30px 150px;
+}
+
+.colab{
+    margin:20px;
+    padding:0px 10px 20px 250px;
+}
+
+.colab{
+    color:rgb(225, 208, 20);
+    font-size: 1.2em;
+}
+
+.colab input{
+    margin-left:30px;
+    border:3.5px solid rgb(225, 208, 20);
+    border-radius:10px;
+    font-size: 20px;
+    line-height:10px;
+    color:rgba(227, 216, 207, 0.822);
+    background-color: rgba(255, 255, 255, 0.05);
+    
+}
+
+.colab textarea{
+    margin:15px 5px;
+    border:3.5px solid rgb(225, 208, 20);
+    border-radius:10px;
+    font-size: 20px;
+    color:rgba(227, 216, 207, 0.822);
+    background-color: rgba(255, 255, 255, 0.05);
+
+    
+}
+
+
+fieldset{
+    padding:25px 20px 10px 30px;
+    border-color:rgb(225, 208, 20) ;
+    border-radius:15px;
+}
+
+legend{
+    color: rgb(242, 106, 106);
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    margin:0px 10px;
+    padding:7px 10px;
+    border:3.5px solid rgb(225, 208, 20);
+    border-radius:10px;
+    font-size: 20px;
+    line-height:19px;
+    color:rgba(227, 216, 207, 0.822);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+footer{
+    color:rgb(242, 106, 106);
+    font-size: 1.3em;
+    background-color: rgba(210, 254, 210, 0.03);
+    border:2px solid rgb(238, 225, 82);
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+#inputname{
+    margin-left:25px;
+    
+}
+
+#inputnumber{
+    margin-left:6px;
+    
+}
+
+#inputmail{
+    margin-left:16px;
+    
+}
+
+footer a:link,footer a:visited{
+    
+}
+
+footer a:hover,footer a:active{
+    color:aquamarine;
+}
